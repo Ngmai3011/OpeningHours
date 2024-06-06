@@ -1,0 +1,51 @@
+div {
+    font-family: "Roboto", sans-serif;
+}
+
+.modal-header {
+    margin: 36px 48px 0;
+    border-bottom: 2px #202125 solid !important;;
+}
+
+.modal-title {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.modal-title div {
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight:bolder;
+    margin-left: 16px;
+}
+
+.modal-body {
+    margin: 0 30px 48px;
+}
+
+.modal-body .day {
+    border-bottom: 2px solid #EEEEEE;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    padding: 8px
+}
+
+.modal-body .day-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.modal-body .day-value {
+    font-size: 1.3rem;
+}
+
+span.closed {
+    color: #A1A2A4;
+}
+
+span.today {
+    font-size: 1rem;
+    color: #5BCB02
+}
